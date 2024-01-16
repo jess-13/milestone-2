@@ -74,13 +74,12 @@ border-color:transparent;
  padding: 5%;
 }
 .mountain{margin-top: 20px;
-    position: absolute;}
+    position: absolute;
+}
 .container{
     display: flex;
     flex-direction: row;
 }
-    
- 
 .box-title{
     color: #121213;
 text-align: center;
@@ -97,30 +96,81 @@ font-size: 35px;}
     border-radius: 16px;
      background:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%)
     ,url(/Images/Rectangle\ 8.png);
-
 }
-.first{
+.sri{
+    width: 374px;
+    height: 286px;
+
+    border-radius: 16px;
+     background:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%)
+    ,url(/Images/Rectangle\ 6.png);
+}
+.north{width: 474px;
+    height: 286px;
+    border-radius:16px;
+    background:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%)
+    ,url(/Images/Rectangle\ 7.png);
+}
+.kashmir{width: 274px;
+    height: 286px;
+    background:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%)
+    ,url(Images/Rectangle\ 9.png);
+    border-radius:16px;
+}
+.bangladesh{ background:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%)
+    ,url(Images/Rectangle\ 11.png);
+    border-radius:16px;
+    width: 473px;
+    height: 300px;
+    flex-shrink: 0;
+}
+.bandarban{ background:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%)
+    ,url(Images/Rectangle\ 10.png);
+    width: 673px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 16px;
+}
+
+.grid{
     display: flex;
     flex-direction:row;
     gap: 10px;
+    margin-top: 10px;
 }
-.sri{
-
-}
-
-
-
-
-
-
 
 .name{text-align: center;
     color: #FFF;
     padding:130px;
 }
-
-
-
+.tag-one{padding: 30px;
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+}
+.tag-two{width: 573px;
+    height: 284px;
+   padding: 30px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.two-container{
+    display: flex;
+    flex-direction:row;
+    gap: 20px;
+}
+.tag-three{width: 573px;
+    height: 284px;
+   padding: 30px;
+    border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+margin-left: 400px;
+margin-top: 20px;
+}
 
 
 @media screen and (max-width: 600px){
@@ -159,11 +209,54 @@ font-size: 35px;}
         .review{margin-top:  10px;
         
         }
+        .box-title{
+           margin-top: 600px; 
+        }
       .mountain{
         width:100%;
         height: 483px;}
 .container{
     display: flex;
     flex-direction:column;}
-
+.name{
+    text-align: center;
+ padding:70px;
+}
+.grid{
+    display: flex;
+    flex-direction: column;
+}
+.maldives{
+    width: 335px;
+height: 175.393px;
+}
+.indo{
+    width: 335px;
+height: 175.393px;
+}
+.sri{
+    width: 335px;
+height: 175.393px;
+}
+.north{
+    width: 335px;
+height: 175.393px;
+}
+.kashmir{
+    width: 335px;
+height: 175.393px;
+}
+.bangladesh{
+    width: 335px;
+height: 175.393px;
+}
+.bandarban{
+    width: 335px;
+height: 175.393px;
+}
+.two-container{
+    display:flex;
+    flex-direction:column;
+}
+   
 }
