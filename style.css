@@ -11,7 +11,9 @@ body{font-family: 'Inter', sans-serif;
     font-family: 'Inter', sans-serif;
     display: flex;}
     .logo{
-width: 48px;height: 56.008px;
+margin-top: 32px;
+width: 48px;
+height: 56.008px;
     }
 .right a{padding: 15px;
     color:#1b130e ;
@@ -260,13 +262,29 @@ height: 500px;
 height: 120px;
 transform: rotate(-19.628deg);
   padding: 20px;
-  
+position:absolute;                                                                                                                                                                        
+}
+.mount{
+    position: relative;
 }
 
 .last{position: relative;
     display: flex;
     flex-direction: row;
     gap: 20px;
+}
+.end{padding: 100px;
+    text-align: center;
+}
+.logo-end{width: 40px;
+    height: 46.673px;
+   
+}
+.footer{width: 1440px;
+    height:1000px;
+    flex-shrink: 0;
+    text-align: center;
+    background: rgba(19, 19, 24, 0.10);
 }
 
 @media screen and (max-width: 600px){
@@ -307,6 +325,7 @@ transform: rotate(-19.628deg);
         }
         .box-title{
            margin-top: 600px; 
+           text-align: center;
         }
       .mountain{
         width:100%;
@@ -392,4 +411,70 @@ font-size: 5px;}
 .hajj-title{font-size: 15px;
     padding: 10px;
 
-}}
+}
+.mount{
+    width: 335px;
+height: 300px;
+flex-shrink: 0;
+}
+
+.last{position: relative;
+    display: flex;
+    flex-direction:column;
+    gap: 20px;
+}
+.info{width: 335px;
+    height: 353px;
+}
+.info-btn{width: 288px;
+    height: 52px;
+    flex-shrink: 0;
+
+}
+.sticker{width: 150px;
+    height:58px;
+    transform: rotate(-19.628deg);
+    margin-left: 20px;
+    margin-top: 650px;
+    font-size: 12px;
+}
+.footer{width: 375px;
+    height: 500px;
+    text-align: center;
+    background: rgba(19, 19, 24, 0.10);
+    margin-top: 100px;
+
+}
+.icon{
+    width: 15px;
+height: 15px;
+flex-shrink: 0;
+display: flex;
+flex-direction: row;
+}
+
+.last{position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.end{padding:0px;
+    text-align: center;
+    gap: 0px;
+}
+.logo-end{
+    width: 28.724px;
+    height: 33.516px;
+    flex-shrink: 0;
+   }
+   .box-title{padding: opx;
+    color: #5A5A5D;
+text-align: center;
+font-size: 14px;
+   }
+   }
+
+
+
+
+
