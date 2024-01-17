@@ -202,11 +202,14 @@ height: 500px;
     color: #ffffff;
     text-align: center;
 }
-.hajj-btn{background-color: rgb(0, 0, 0);
+.hajj-btn{background-color:transparent;
     font-size: 20px;
     border-radius: 5px;
     margin-left: 50px;
     color: antiquewhite;
+    width: 120px;
+    height: 80px;
+    float:lef;
 }
 .book{background:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%)
     ,url(Images/book.jpg);
@@ -240,6 +243,7 @@ height: 500px;
     border-radius: 16px;
     border: 1px solid #FF5400;
     padding: 40px;
+ 
 }
 .info-btn{width: 393px;
     height: 52px;
@@ -264,9 +268,7 @@ transform: rotate(-19.628deg);
   padding: 20px;
 position:absolute;                                                                                                                                                                        
 }
-.mount{
-    position: relative;
-}
+
 
 .last{position: relative;
     display: flex;
@@ -281,7 +283,7 @@ position:absolute;
    
 }
 .footer{width: 1440px;
-    height:1000px;
+    height:600px;
     flex-shrink: 0;
     text-align: center;
     background: rgba(19, 19, 24, 0.10);
@@ -292,7 +294,7 @@ position:absolute;
         display: none;}
         
     
-    .title{width:100%;
+    .title{width:335px;
         height: 483px;
        text-align: top;
        font-size :12px;
@@ -328,7 +330,7 @@ position:absolute;
            text-align: center;
         }
       .mountain{
-        width:100%;
+        width:335px;
         height: 483px;}
 .container{
     display: flex;
@@ -348,6 +350,7 @@ height: 175.393px;
 .indo{
     width: 335px;
 height: 175.393px;
+
 }
 .sri{
     width: 335px;
@@ -408,11 +411,12 @@ gap: 30px;
 .hajj{   width: 335px;
     height: 500px;
 font-size: 5px;}
-.hajj-title{font-size: 15px;
-    padding: 10px;
+.hajj-title{font-size: 12px;
+    padding: 30px;
+    
 
 }
-.mount{
+.mount{margin-top: 50px;
     width: 335px;
 height: 300px;
 flex-shrink: 0;
@@ -422,6 +426,7 @@ flex-shrink: 0;
     display: flex;
     flex-direction:column;
     gap: 20px;
+
 }
 .info{width: 335px;
     height: 353px;
@@ -431,13 +436,7 @@ flex-shrink: 0;
     flex-shrink: 0;
 
 }
-.sticker{width: 150px;
-    height:58px;
-    transform: rotate(-19.628deg);
-    margin-left: 20px;
-    margin-top: 650px;
-    font-size: 12px;
-}
+
 .footer{width: 375px;
     height: 500px;
     text-align: center;
@@ -445,7 +444,7 @@ flex-shrink: 0;
     margin-top: 100px;
 
 }
-.icon{
+.icon{padding:2%;
     width: 15px;
 height: 15px;
 flex-shrink: 0;
@@ -458,7 +457,7 @@ flex-direction: row;
     flex-direction: row;
     gap: 20px;
 }
-.end{padding:0px;
+.end{padding:5px;
     text-align: center;
     gap: 0px;
 }
@@ -471,6 +470,10 @@ flex-direction: row;
     color: #5A5A5D;
 text-align: center;
 font-size: 14px;
+   }
+   .line{width: 335px;
+    height: 1px;
+
    }
    }
 
