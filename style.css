@@ -1,24 +1,26 @@
 
-    
+ 
+           
 
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-    
-  
-body{font-family: 'Inter', sans-serif;
-    background-color: rgb(248, 243, 239);}
+  body{font-family: 'Inter', sans-serif;
+       background-color: rgb(248, 243, 239);}
   .left{font-size: 30px;
     font-family: 'Inter', sans-serif;
     display: flex;}
+  
+
+
     .logo{
-margin-top: 32px;
-width: 48px;
-height: 56.008px;
+            margin-top: 32px;
+            width: 48px;
+            height: 56.008px;
     }
 .right a{padding: 15px;
     color:#1b130e ;
     font-family: 'Inter', sans-serif;
-font-size: 40px;
+font-size: 30px;
 font-weight: 800;}
 nav{padding: 20px;
     display: flex;
@@ -258,19 +260,10 @@ height: 500px;
   
     
 }
-.sticker{color: #FFF;
-    font-size: 15px;
-   border-radius: 13px;
-   background: #FF5400;
-   width: 324px;
-height: 120px;
-transform: rotate(-19.628deg);
-  padding: 20px;
-position:absolute;                                                                                                                                                                        
-}
 
 
-.last{position: relative;
+
+.last{
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -287,7 +280,311 @@ position:absolute;
     flex-shrink: 0;
     text-align: center;
     background: rgba(19, 19, 24, 0.10);
+
 }
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:992px) 
+{
+    
+  body{font-family: 'Inter', sans-serif;
+    padding:200PX;
+       background-color: rgb(248, 243, 239);}
+  .left{font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    display: flex;}
+
+  .left{font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    display: flex;}
+    .logo{
+        margin-top: 32px;
+        width: 48px;
+        height: 56.008px;
+}
+.right a{padding: 15px;
+color:#1b130e ;
+font-family: 'Inter', sans-serif;
+font-size: 40px;
+font-weight: 800;}
+nav{padding: 20px;
+display: flex;
+gap:50px;
+justify-content: space-between;
+}
+
+.title{
+text-align: center;
+font-family: 'Inter', sans-serif;
+color: white;
+width: 1170px;
+height: 500px;
+background: fixed;
+background-repeat: no-repeat;
+background-attachment: fixed;
+border-radius: 16px;
+background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%)
+,url(Images/Group\ 13\ \(1\)\ \(1\).png);
+}
+.title-des{
+padding: 50px;
+}
+.search-bar{
+color: grey;
+font-family: 'Inter', sans-serif;
+font-size: 16px;
+font-style: normal;
+padding: 15px;
+border-radius: 8px;
+border-color:transparent;
+}
+.search{border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+display: inline-flex;
+padding: 20px;
+align-items: flex-start;
+gap: 24px;
+margin-top:50px ;
+}
+.find{width: 174px;
+height: 52px;
+color: #FFF;
+font-size: 16px;
+font-family: 'Inter', sans-serif;
+border-radius: 8px;
+background: #FF5400;
+border-color: transparent;
+}
+.review{color: rgba(19, 19, 24, 0.70);
+width:400px;
+font-size: 16px;
+font-family: 'Inter', sans-serif;
+
+padding: 5%;
+}
+.mountain{margin-top: 20px;
+position: absolute;
+}
+.container{
+display: flex;
+flex-direction: row;
+}
+.box-title{
+color: #121213;
+text-align: center;
+font-family: 'Inter', sans-serif;
+font-size: 35px;}
+.maldives{width: 573px;
+height: 300px;
+border-radius: 16px;
+ background:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%)
+,url(Images/Rectangle\ 5.png);
+}
+.indo{width: 573px;
+height: 300px;
+border-radius: 16px;
+ background:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%)
+,url(Images/Rectangle\ 8.png);
+}
+.sri{
+width: 374px;
+height: 286px;
+
+border-radius: 16px;
+ background:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%)
+,url(Images/Rectangle\ 6.png);
+}
+.north{width: 474px;
+height: 286px;
+border-radius:16px;
+background:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%)
+,url(Images/Rectangle\ 7.png);
+}
+.kashmir{width: 274px;
+height: 286px;
+background:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%)
+,url(Images/Rectangle\ 9.png);
+border-radius:16px;
+}
+.bangladesh{ background:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%)
+,url(Images/Rectangle\ 11.png);
+border-radius:16px;
+width: 473px;
+height: 300px;
+flex-shrink: 0;
+}
+.bandarban{ background:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%)
+,url(Images/Rectangle\ 10.png);
+width: 673px;
+height: 300px;
+border-radius: 16px;
+}
+
+.grid{
+display: flex;
+flex-direction:row;
+gap: 10px;
+margin-top: 10px;
+}
+
+.name{text-align: center;
+color: #FFF;
+padding:130px;
+}
+.tag-one{padding: 30px;
+width: 573px;
+height: 284px;
+border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+}
+.tag-two{width: 573px;
+height: 284px;
+padding: 30px;
+border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+}
+.two-container{
+display: flex;
+flex-direction:row;
+gap: 20px;
+}
+.tag-three{width: 573px;
+height: 284px;
+padding: 30px;
+border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+margin-left: 400px;
+margin-top: 20px;
+}
+
+
+.view{background-color: #070c23;
+color: antiquewhite;
+border-color: transparent;
+padding: 30px;
+font-size: larger;
+text-align: center;
+border-radius: 10px;
+cursor: pointer;
+}
+.view-button{margin-top: 50px;
+text-align: center;
+}
+.hajj{color: antiquewhite;
+border-radius: 10px;
+width: 1170px;
+height: 500px;
+background-image: url(Images/hajj.jpg);
+border-radius: 10px;
+}
+.hajj-title{padding: 50px;
+text-align: center;
+
+font-size: x-large;
+}
+.table{
+color: #ffffff;
+text-align: center;
+}
+.hajj-btn{background-color:transparent;
+font-size: 20px;
+border-radius: 5px;
+margin-left: 50px;
+color: antiquewhite;
+width: 120px;
+height: 80px;
+float:lef;
+}
+.book{background:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%)
+,url(Images/book.jpg);
+width: 374px;
+height: 286px;
+border-radius: 10px;
+}
+.kaba{width: 374px;
+height: 286px;
+border-radius: 10px;
+background:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%)
+,url(Images/kaba.jpg);
+}
+.prayer{width: 374px;
+height: 286px;
+border-radius: 10px;
+  background:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%)
+,url(Images/prayer.jpg);
+
+}
+.table{gap: 20px;
+padding: 20px;
+}
+.pursue{margin-top: 20px;
+    display: flex;
+flex-direction: row;
+gap: 30px;
+}
+.info{width: 474px;
+height: 422px;
+border-radius: 16px;
+border: 1px solid #FF5400;
+padding: 40px;
+
+}
+.info-btn{width: 393px;
+height: 52px;
+flex-shrink: 0;
+font-size:16px;
+margin-top: 10px;
+border-color: transparent;
+margin-bottom: 15px;
+cursor: pointer;
+color: darkgrey;
+text-align: center;
+
+
+}
+
+
+
+.last{
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+.end{padding: 100px;
+text-align: center;
+}
+.logo-end{width: 40px;
+height: 46.673px;
+
+}
+.footer{width: 1440px;
+height:600px;
+flex-shrink: 0;
+text-align: center;
+background: rgba(19, 19, 24, 0.10);
+
+}
+}
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 600px){
     .right{
@@ -422,7 +719,7 @@ height: 300px;
 flex-shrink: 0;
 }
 
-.last{position: relative;
+.last{
     display: flex;
     flex-direction:column;
     gap: 20px;
@@ -450,9 +747,10 @@ height: 15px;
 flex-shrink: 0;
 display: flex;
 flex-direction: row;
+margin-left: 150px;
 }
 
-.last{position: relative;
+.last{
     display: flex;
     flex-direction: row;
     gap: 20px;
