@@ -91,13 +91,13 @@ font-size: 35px;}
     height: 300px;
     border-radius: 16px;
      background:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%)
-    ,url(/Images/Rectangle\ 5.png);
+    ,url(Images/Rectangle\ 5.png);
 }
 .indo{width: 573px;
     height: 300px;
     border-radius: 16px;
      background:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%)
-    ,url(/Images/Rectangle\ 8.png);
+    ,url(Images/Rectangle\ 8.png);
 }
 .sri{
     width: 374px;
@@ -105,13 +105,13 @@ font-size: 35px;}
 
     border-radius: 16px;
      background:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%)
-    ,url(/Images/Rectangle\ 6.png);
+    ,url(Images/Rectangle\ 6.png);
 }
 .north{width: 474px;
     height: 286px;
     border-radius:16px;
     background:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%)
-    ,url(/Images/Rectangle\ 7.png);
+    ,url(Images/Rectangle\ 7.png);
 }
 .kashmir{width: 274px;
     height: 286px;
